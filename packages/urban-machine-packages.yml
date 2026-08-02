@@ -1,0 +1,48 @@
+generated: '2026-07-21'
+method: searched
+source: https://pypi.org/pypi/colcon-poetry-ros/json, https://api.github.com/orgs/UrbanMachine/repos
+note: Urban Machine is a robotics/hardware company with no public API; these are
+  first-party open-source robotics/ROS tooling packages, not API client SDKs.
+packages:
+- name: colcon-poetry-ros
+  registry: pypi
+  url: https://pypi.org/project/colcon-poetry-ros/
+  repository: https://github.com/UrbanMachine/colcon-poetry-ros
+  version: 0.9.0
+  language: Python
+  license: BSD-3-Clause
+  official: true
+  description: A Colcon extension providing support for Python projects that use
+    Poetry within ROS.
+- name: node_helpers
+  registry: github
+  url: https://github.com/UrbanMachine/node_helpers
+  language: Python
+  official: true
+  description: An opinionated ROS2 framework that minimizes boilerplate while maximizing
+    reliability.
+- name: onshape-urdf-exporter
+  registry: github
+  url: https://github.com/UrbanMachine/onshape-urdf-exporter
+  language: Python
+  official: true
+  description: Exports an OnShape assembly to a URDF file with STL meshes.
+- name: create-ros-app
+  registry: github
+  url: https://github.com/UrbanMachine/create-ros-app
+  language: Shell
+  official: true
+  description: A production-ready template to be used as a basis for ROS apps.
+- name: create-python-lib
+  registry: github
+  url: https://github.com/UrbanMachine/create-python-lib
+  language: Python
+  official: true
+  description: Template used as the basis for all Python packages at Urban Machine.
+- name: roboregress
+  registry: github
+  url: https://github.com/UrbanMachine/roboregress
+  language: Python
+  official: true
+  description: A system for numerical modeling different configurations of a linear
+    factory process.

@@ -1,7 +1,22 @@
 aid: urban-machine
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urban-machine.png
 name: Urban Machine
-description: 'Urban Machine is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: Urban Machine is a GV-backed robotics company building AI and computer-vision
+  powered machines that remove metal fasteners (nails, staples, and screws) from construction
+  and demolition lumber waste, reclaiming it for premium wood products and circular-economy
+  reuse. The company publishes no public API, but maintains an open-source ROS/Python
+  robotics tooling footprint on GitHub, including the colcon-poetry-ros package on PyPI.
 url: https://raw.githubusercontent.com/api-evangelist/urban-machine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +26,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Robotics
+- Construction
+- Wood Reclamation
+- Circular Economy
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +42,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/urban-machine-domain-security.yml
 - type: Website
   url: https://urbanmachine.build
+- type: Blog
+  url: https://urbanmachine.build/updates
+- type: Support
+  url: https://urbanmachine.build/contact
+- type: GitHubOrganization
+  url: https://github.com/UrbanMachine
+- type: Packages
+  url: packages/urban-machine-packages.yml
+- type: WellKnown
+  url: well-known/urban-machine-well-known.yml
+- type: LLMsTxt
+  url: llms/urban-machine-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
