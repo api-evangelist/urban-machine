@@ -45,7 +45,7 @@ tags:
 - Construction
 - Wood Reclamation
 - Circular Economy
-- Computer-Vision
+- Computer Vision
 tags_raw:
 - Company
 - Ai
@@ -54,6 +54,7 @@ tags_raw:
 - Wood Reclamation
 - Circular Economy
 - Computer Vision
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
